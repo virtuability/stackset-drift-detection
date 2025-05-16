@@ -17,8 +17,8 @@ _ = StacksetDriftDetectionStack(
     props=StacksetDriftDetectionStackProps(
         stackset_names=["ExampleStackSetName"],  # Provide a list of StackSet names to monitor
         schedule_expression="cron(0 5 ? * 2 *)",  # Provide a schedule interval (cron or rate)
-        notification_email_endpoints=["example@example.com"],  # Provide a list of email addresses
-        notification_https_endpoints=["https://example.com/endpoint"],  # Provide a list of HTTPS endpoints
+        notification_email_endpoints=[""],  # Provide a list of email addresses
+        notification_https_endpoints=[""],  # Provide a list of HTTPS endpoints
     ),
 )
 
